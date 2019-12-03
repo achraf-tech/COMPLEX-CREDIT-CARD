@@ -1,22 +1,64 @@
-.App {
-  text-align: center;
+.main {
+  display: flex;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  width: 551px;
+  height: 344px;
+  background-image: url("./pictures/achraf.jpg");
+  border-radius: 35px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+  justify-content: space-between;
   color: white;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #09d3ac;
+h1 {
+  margin: 0;
+  align-self: flex-end;
+}
+
+[alt="choq"] {
+  width: 80px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.info {
+  flex: 1;
+  margin-right: 25px;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+}
+
+[alt="logo"] {
+  width: 130px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: auto 15px;
+}
+
+.label {
+  margin: 0 15px;
+}
+
+input {
+  margin: 10px;
+}
+
+.valid {
+  text-align: right;
 }
